@@ -1,7 +1,6 @@
 ## Introduction to Proxmox 8 Cluster Setup with Ceph and HA
 
-#### In this how to I'm going to try to describe how to create a Proxmox 8 cluster using
-three nodes in this case I'm using three Dell Optiplex 3040 Micro PC's. So let's jump right into how I have prepared the Proxmox Cluster Creation.
+#### In this how to I'm going to try to describe how to create a Proxmox 8 cluster using three nodes in this case I'm using three Dell Optiplex 3040 Micro PC's. So let's jump right into how I have prepared the Proxmox Cluster Creation.
 
 I first had to do the following:  1) Create a bootable USB (Ventoy) flash drive that contains the proxmox ISO. 2) Clear the 3040's BIOS password. 3) Boot to the USB and install on all three micro pcs.
  
