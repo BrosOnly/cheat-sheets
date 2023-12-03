@@ -17,7 +17,7 @@ I used pve-cluster-1 as the master of the cluster. Under Datacenter, click on cl
 1) Create a Virtual Machine (VM) Ubuntu 20.04.
 2) Create a Container (CT) from template.
 
-<b>Migrate Container Test - took three minutes</b><br>
+<b>Migrate Container Test - Duration shows approx 3m 14.7s</b><br>
 ![java-code](https://raw.githubusercontent.com/rBums/cheat-sheets/main/server_management/proxmox/ceph/images/ct-migrate-3MIN.png)<hr>
 <b>Container Output</b><br>
 ![java-code](https://raw.githubusercontent.com/rBums/cheat-sheets/main/server_management/proxmox/ceph/images/ct-migrate-output.png)<hr>
@@ -25,11 +25,17 @@ I used pve-cluster-1 as the master of the cluster. Under Datacenter, click on cl
 ![java-code](https://raw.githubusercontent.com/rBums/cheat-sheets/main/server_management/proxmox/ceph/images/vm-HA-add.png)<hr>
 <b>Migrate HA VM Output</b><br>
 ![java-code](https://raw.githubusercontent.com/rBums/cheat-sheets/main/server_management/proxmox/ceph/images/vm-migrate-output.png)<hr>
-<b>Migrate HA VM Status</b><br>
-![java-code](https://raw.githubusercontent.com/rBums/cheat-sheets/main/server_management/proxmox/ceph/images/vm-migrate-status.png)<hr>
+<b>Migrate HA VM Status - Durations shows approx 48.8s</b><br>
+![java-code](https://raw.githubusercontent.com/rBums/cheat-sheets/main/server_management/proxmox/ceph/images/vm-migrate-status.png)
 
 ---
 
-## Ceph Dashboard
+# Ceph Dashboard (coming soon)
+
+Still needed to do a few things.
+
+1) Add more storage on each micro pc.
+2) Setup Ceph OSDs (Object Storage Daemon).
+3) Setup Monitors, Managers, and Pools.
 
   The Ceph Dashboard is a built-in web-based Ceph management and monitoring application through which you can inspect and administer various resources within the cluster. It is implemented as a Ceph Manager Daemon module.
