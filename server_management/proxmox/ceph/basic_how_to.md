@@ -31,7 +31,7 @@ I used pve-cluster-1 as the master of the cluster. Under Datacenter, click on cl
 ---
 
 # Ceph Dashboard (coming soon)
-
+Adding more...
 Still needed to do a few things.
 
 1) Add more storage on each micro pc.
